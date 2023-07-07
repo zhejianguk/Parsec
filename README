@@ -1,0 +1,13 @@
+Install the dependencies:
+./configure
+
+Set the env:
+. ./env.sh
+
+Build the benchmark:
+cd pkgs
+./build_parsec.sh
+
+Run the benchmark:
+cd pkgs
+./run_parsec.sh
